@@ -52,7 +52,7 @@ To set up this project locally, follow these steps:
 
 The landing page is designed to be user-friendly and informative. Visitors can navigate through different sections using the navigation bar, learn more about the fitness programs offered, read testimonials, and get in touch or join the program via the call-to-action buttons.
 
-The live site will be available at `https://your-username.github.io/fitness-program`.
+The live site will be available at `https://faizan-qadri.github.io/fitness-program`.
 
 ## Contact
 
