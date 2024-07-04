@@ -56,7 +56,7 @@ The live site will be available at `https://your-username.github.io/fitness-prog
 
 ## Contact
 
-For any inquiries or feedback, please contact us at [info@fitlife.com](mailto:info@fitlife.com).
+For any inquiries or feedback, please contact [faizanqadri0220@gmail.com](mailto:faizanqadri0220@gmail.com).
 
 ---
 
