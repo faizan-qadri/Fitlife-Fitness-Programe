@@ -1,5 +1,7 @@
 # FitLife - Fitness Program Landing Page
 
+Figma Like For Design [Figma](https://www.figma.com/design/jqM1RB40Zywm1MDoQ35IsP/OCTANET-PROJECT?node-id=0-1&t=kPlrdXH02APKz6yq-1)
+
 This project is a landing page for the FitLife fitness program, created as part of an internship task at OCTANET. The landing page is designed to attract potential clients by showcasing the benefits and offerings of the fitness program. It includes sections such as an introduction to the program, details about different fitness programs offered, testimonials from satisfied clients, and call-to-action buttons to encourage visitors to sign up or get in touch.
 
 ## Table of Contents
