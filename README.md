@@ -23,13 +23,11 @@ FitLife offers comprehensive fitness programs tailored to help individuals achie
 - Clear and concise introduction to the fitness program
 - Overview of different fitness programs offered
 - Testimonials from satisfied clients
-- Call-to-action buttons to encourage sign-ups and contact
 
 ## Technologies Used
 
 - HTML
 - CSS
-- JavaScript
 
 ## Setup
 
