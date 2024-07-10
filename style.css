@@ -116,6 +116,7 @@
       .hero-banner h2 {
         color: white;
         margin-top: 20vh;
+        animation: slideLeft 1s ease-in-out forwards;
         color: #fff;
         font-family: Orbitron, Arial, sans-serif;
         font-weight: 400;
@@ -123,6 +124,7 @@
       }
       .hero-banner h4 {
         color: white;
+        animation: slideLeft 1s ease-in-out forwards;
         font-weight: 200;
       }
 
@@ -145,6 +147,7 @@
         font-weight: 400;
         font-size: 36px;
         margin-bottom: 5%;
+        animation: slideUp 1s ease-in-out forwards;
       }
       .our-program h2 {
         color: white;
@@ -161,6 +164,7 @@
         border: 1px solid #fff;
         background: none;
         cursor: pointer;
+        animation: slideLeft 1s ease-in-out forwards;
       }
       .card {
         display: flex;
@@ -189,6 +193,15 @@
         align-items: center;
         justify-content: center;
         height: 360px;
+      }
+      .card:has(> .yoga-card) {
+        animation: slideLeft 1s ease-in-out forwards;
+      }
+      .card:has(> .hiit-card) {
+        animation: slideUp 1s ease-in-out forwards;
+      }
+      .card:has(> .strength-card) {
+        animation: slideRight 1s ease-in-out forwards;
       }
       .yoga-card {
         background: url("https://images.pexels.com/photos/14252546/pexels-photo-14252546.jpeg")
@@ -230,9 +243,11 @@
       .testimonial h2 {
         font-family: Orbitron, Arial, sans-serif;
         font-weight: 400;
+        animation: slideUp 1s ease-in-out forwards;
       }
       .testimonial h4 {
         font-weight: 200;
+        animation: slideUp 1s ease-in-out forwards;
       }
       .testimonial-btn {
         cursor: pointer;
@@ -241,6 +256,7 @@
         padding: 10px 20px;
         border: 1px solid white;
         border-radius: 50px;
+        animation: slideLeft 1s ease-in-out forwards;
       }
       .testimonial-btn img {
         width: 40px;
@@ -261,11 +277,12 @@
         font-family: Orbitron, Arial, sans-serif;
         margin: 0;
         font-weight: 400;
+        animation: slideUp 1s ease-in-out forwards;
       }
       .about h4 {
         margin: 0;
-
         font-weight: 200;
+        animation: slideUp 1s ease-in-out forwards;
       }
 
       /*FOOTER*/
@@ -291,6 +308,36 @@
       .footer-row > img {
         width: 160px;
       }
+      @keyframes slideLeft {
+        0% {
+          transform: translateX(-200px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes slideRight {
+        0% {
+          transform: translateX(+200px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes slideUp {
+        0% {
+          transform: translateY(+30px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
 
       @media (max-width: 768px) {
         .header {
@@ -306,6 +353,7 @@
         /*Hero banner*/
         .cta-button-mobile {
           display: inline;
+          animation: slideLeft 1s ease-in-out forwards;
         }
         .hero-banner {
           position: relative;
@@ -347,6 +395,15 @@
         }
         .social img {
           width: 20px;
+        }
+         .card:has(> .yoga-card) {
+          animation: slideUp 1s ease-in-out forwards;
+        }
+        .card:has(> .hiit-card) {
+          animation: slideUp 1s ease-in-out forwards;
+        }
+        .card:has(> .strength-card) {
+          animation: slideUp 1s ease-in-out forwards;
         }
       }
 
