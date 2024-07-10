@@ -1,6 +1,7 @@
 # FitLife - Fitness Program Landing Page
 
 Design [Figma](https://www.figma.com/design/jqM1RB40Zywm1MDoQ35IsP/OCTANET-PROJECT?node-id=0-1&t=kPlrdXH02APKz6yq-1)
+The live site will be available at `[https://faizan-qadri.github.io/fitness-program](https://faizan-qadri.github.io/Fitlife-Fitness-Programe/)`
 
 This project is a landing page for the FitLife fitness program, created as part of an internship task at OCTANET. The landing page is designed to attract potential clients by showcasing the benefits and offerings of the fitness program. It includes sections such as an introduction to the program, details about different fitness programs offered, testimonials from satisfied clients, and call-to-action buttons to encourage visitors to sign up or get in touch.
 
@@ -52,7 +53,7 @@ To set up this project locally, follow these steps:
 
 The landing page is designed to be user-friendly and informative. Visitors can navigate through different sections using the navigation bar, learn more about the fitness programs offered, read testimonials, and get in touch or join the program via the call-to-action buttons.
 
-The live site will be available at `https://faizan-qadri.github.io/fitness-program`.
+The live site will be available at `[https://faizan-qadri.github.io/fitness-program](https://faizan-qadri.github.io/Fitlife-Fitness-Programe/)`.
 
 ## Contact
 
